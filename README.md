@@ -1,4 +1,5 @@
-# LeetCode-Question-Number-16
+# LeetCode-Question-Number-18
+
 Given an array nums of n integers, return an array of all the unique quadruplets [nums[a], nums[b], nums[c], nums[d]] such that:
 
 0 <= a, b, c, d < n
@@ -6,11 +7,14 @@ a, b, c, and d are distinct.
 nums[a] + nums[b] + nums[c] + nums[d] == target
 You may return the answer in any order.
 
+
 # This is the result of the Solution
 
 <img width="1917" height="907" alt="image" src="https://github.com/user-attachments/assets/8955ef6c-1338-4fe8-89b7-52ecdd60aa7b" />
 
+
 # Work Flow
+
 1. Handle the Base Case: If the array contains fewer than four elements, return an empty list because a quadruplet cannot be formed.
 
 2. Sort the Array: Sort the array in ascending order to make it easier to use two pointers and eliminate duplicate quadruplets.
